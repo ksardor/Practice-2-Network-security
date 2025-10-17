@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 """
-brute_force_gpg.py
+main.py
 
 Brute-force lowercase-only passphrases for a symmetric GPG-encrypted file.
 
 Usage:
-    python3 brute_force_gpg.py --file archive.pdf.gpg --min 1 --max 5 --workers 8
+    python3 main.py --file archive.pdf.gpg --min 1 --max 5 --workers 8
 
 Requirements:
     - Python 3.8+
